@@ -4,28 +4,21 @@ using System.Windows.Forms;
 
 namespace WinFormsQuizApp
 {
-    /// <summary>
-    ///     Главная форма приложения с тестом из трёх вопросов.
-    ///     Каждый вопрос расположен на отдельной вкладке (TabPage).
-    /// </summary>
     public class MainForm : Form
     {
         private readonly TestResultProcessor _processor = new();
 
         private TabControl _tabControl = null!;
 
-        // Вопрос 1 (RadioButton)
         private RadioButton _q1OptionInt = null!;
         private RadioButton _q1OptionString = null!;
         private RadioButton _q1OptionBool = null!;
 
-        // Вопрос 2 (CheckBox)
         private CheckBox _q2CSharp = null!;
         private CheckBox _q2Java = null!;
         private CheckBox _q2Html = null!;
         private CheckBox _q2Sql = null!;
 
-        // Вопрос 3 (TextBox)
         private TextBox _q3TextBox = null!;
 
         public MainForm()
@@ -56,9 +49,6 @@ namespace WinFormsQuizApp
             Controls.Add(_tabControl);
         }
 
-        /// <summary>
-        ///     Вкладка с вопросом 1 — одиночный выбор (RadioButton).
-        /// </summary>
         private TabPage CreateQuestion1Tab()
         {
             var tabPage = new TabPage("Вопрос 1");
@@ -111,9 +101,6 @@ namespace WinFormsQuizApp
             return tabPage;
         }
 
-        /// <summary>
-        ///     Вкладка с вопросом 2 — множественный выбор (CheckBox).
-        /// </summary>
         private TabPage CreateQuestion2Tab()
         {
             var tabPage = new TabPage("Вопрос 2");
@@ -177,9 +164,6 @@ namespace WinFormsQuizApp
             return tabPage;
         }
 
-        /// <summary>
-        ///     Вкладка с вопросом 3 — текстовый ответ (TextBox).
-        /// </summary>
         private TabPage CreateQuestion3Tab()
         {
             var tabPage = new TabPage("Вопрос 3");

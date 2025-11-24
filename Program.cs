@@ -5,9 +5,6 @@ namespace WinFormsQuizApp
 {
     internal static class Program
     {
-        /// <summary>
-        ///     Entry point of the Windows Forms application.
-        /// </summary>
         [STAThread]
         private static void Main()
         {

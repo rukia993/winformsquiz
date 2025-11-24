@@ -4,10 +4,6 @@ using System.Text;
 
 namespace WinFormsQuizApp
 {
-    /// <summary>
-    ///     Класс-обработчик ответов пользователя.
-    ///     Инкапсулирует логику проверки и формирования отчёта по прохождению теста.
-    /// </summary>
     public class TestResultProcessor
     {
         private const int TotalQuestions = 3;
@@ -16,10 +12,6 @@ namespace WinFormsQuizApp
         public bool? Question2Correct { get; private set; }
         public bool? Question3Correct { get; private set; }
 
-        /// <summary>
-        ///     Вопрос 1: одиночный выбор (RadioButton).
-        ///     Правильный ответ — значение <paramref name="selectedOptionKey"/> равно "int".
-        /// </summary>
         public void SetQuestion1Answer(string? selectedOptionKey)
         {
             if (string.IsNullOrWhiteSpace(selectedOptionKey))
@@ -31,20 +23,11 @@ namespace WinFormsQuizApp
             Question1Correct = string.Equals(selectedOptionKey, "int", StringComparison.OrdinalIgnoreCase);
         }
 
-        /// <summary>
-        ///     Вопрос 2: множественный выбор (CheckBox).
-        ///     Правильный ответ — включены только C# и Java.
-        /// </summary>
         public void SetQuestion2Answer(bool csharpChecked, bool javaChecked, bool htmlChecked, bool sqlChecked)
         {
-            // Правильная комбинация: C# и Java — да, HTML и SQL — нет.
             Question2Correct = csharpChecked && javaChecked && !htmlChecked && !sqlChecked;
         }
 
-        /// <summary>
-        ///     Вопрос 3: текстовый ответ.
-        ///     Принимаются варианты: "ооп" или "объектно-ориентированное программирование".
-        /// </summary>
         public void SetQuestion3Answer(string? text)
         {
             if (string.IsNullOrWhiteSpace(text))
@@ -63,9 +46,6 @@ namespace WinFormsQuizApp
             };
         }
 
-        /// <summary>
-        ///     Формирует текстовый отчёт о прохождении теста.
-        /// </summary>
         public string GetReport()
         {
             int answered = 0;
