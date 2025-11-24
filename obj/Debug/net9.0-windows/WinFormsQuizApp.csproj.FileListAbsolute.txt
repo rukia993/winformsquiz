@@ -1,0 +1,15 @@
+c:\Users\User\Desktop\hero-project\WinFormsQuizApp\bin\Debug\net9.0-windows\WinFormsQuizApp.exe
+C:\Users\User\Desktop\hero-project\WinFormsQuizApp\bin\Debug\net9.0-windows\WinFormsQuizApp.deps.json
+C:\Users\User\Desktop\hero-project\WinFormsQuizApp\bin\Debug\net9.0-windows\WinFormsQuizApp.runtimeconfig.json
+c:\Users\User\Desktop\hero-project\WinFormsQuizApp\bin\Debug\net9.0-windows\WinFormsQuizApp.dll
+c:\Users\User\Desktop\hero-project\WinFormsQuizApp\bin\Debug\net9.0-windows\WinFormsQuizApp.pdb
+c:\Users\User\Desktop\hero-project\WinFormsQuizApp\obj\Debug\net9.0-windows\WinFormsQuizApp.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\User\Desktop\hero-project\WinFormsQuizApp\obj\Debug\net9.0-windows\WinFormsQuizApp.AssemblyInfoInputs.cache
+c:\Users\User\Desktop\hero-project\WinFormsQuizApp\obj\Debug\net9.0-windows\WinFormsQuizApp.AssemblyInfo.cs
+c:\Users\User\Desktop\hero-project\WinFormsQuizApp\obj\Debug\net9.0-windows\WinFormsQuizApp.csproj.CoreCompileInputs.cache
+c:\Users\User\Desktop\hero-project\WinFormsQuizApp\obj\Debug\net9.0-windows\WinFormsQuizApp.sourcelink.json
+c:\Users\User\Desktop\hero-project\WinFormsQuizApp\obj\Debug\net9.0-windows\WinFormsQuizApp.dll
+c:\Users\User\Desktop\hero-project\WinFormsQuizApp\obj\Debug\net9.0-windows\refint\WinFormsQuizApp.dll
+c:\Users\User\Desktop\hero-project\WinFormsQuizApp\obj\Debug\net9.0-windows\WinFormsQuizApp.pdb
+C:\Users\User\Desktop\hero-project\WinFormsQuizApp\obj\Debug\net9.0-windows\WinFormsQuizApp.genruntimeconfig.cache
+C:\Users\User\Desktop\hero-project\WinFormsQuizApp\obj\Debug\net9.0-windows\ref\WinFormsQuizApp.dll
